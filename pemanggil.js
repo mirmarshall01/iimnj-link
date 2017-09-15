@@ -19,13 +19,29 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 j++;}
 if(a_to_vh==false)
 {var encryptedUrl=Base64.encode(a_to_vi);
-var x=Math.floor((Math.random()*5)+ 1);
+var x=Math.floor((Math.random()*21)+ 1);
 var xxx=null;
 if(x=="1"){xxx="/2017/09/java-tutorial.html"}
-if(x=="2"){xxx="/2017/08/tesla-car-battery-production-releases.html"}
-if(x=="3"){xxx="/2017/08/green-lunacy-fossil-fuel-mandates-to.html"}
-if(x=="4"){xxx="/2017/08/us-climate-report-edits-out-highly_28.html"}
-if(x=="5"){xxx="/2017/08/arctic-melt-season-changes-and-arctic.html"}a_to_ve[i].href="https://mirmjava.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+if(x=="2"){xxx="/2017/09/java-overview.html"}
+if(x=="3"){xxx="/2017/09/java-environment-setup.html"}
+if(x=="4"){xxx="/2017/09/java-basic-syntax.html"}
+if(x=="5"){xxx="/2017/09/java-object-and-classes.html"}
+if(x=="6"){xxx="/2017/09/java-basic-datatypes.html"}
+if(x=="7"){xxx="/2017/09/java-variable-types.html"}
+if(x=="8"){xxx="/2017/09/java-modifier-types.html"}
+if(x=="9"){xxx="/2017/09/java-basic-operators.html"}
+if(x=="10"){xxx="/2017/09/java-loop-control.html"}
+if(x=="11"){xxx="/2017/09/java-decision-making.html"}
+if(x=="12"){xxx="/2017/09/java-numbers-class.html"}
+if(x=="13"){xxx="/2017/09/java-character-class.html"}
+if(x=="14"){xxx="/2017/09/java-strings-class.html"}
+if(x=="15"){xxx="/2017/09/java-arrays.html"}
+if(x=="16"){xxx="/2017/09/java-date-and-time.html"}
+if(x=="17"){xxx="/2017/09/java-regular-expressions.html"}
+if(x=="18"){xxx="/2017/09/java-methods.html"}
+if(x=="19"){xxx="/2017/09/java-files-and-io.html"}
+if(x=="20"){xxx="/2017/09/java-exceptions.html"}
+if(x=="21"){xxx="/2017/09/java-inner-classes.html"}a_to_ve[i].href="https://mirmjava.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
